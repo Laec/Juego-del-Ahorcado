@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>Juego del ahorcado</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <img src="Logo.png" alt="Logo Alura">
+        </header>
+
+        <main>
+
+            <textarea class="nuevaPalabra" placeholder="Ingrese una palabra"></textarea>
+
+            <section class="botonesMenu">
+                    <button class="iniciar" onclick="btnIniciar()">Iniciar juego</button>
+                    <button class="agregar" onclick="btnAgregar()">Agregar nueva palabra</button>
+            </section>
+
+            <section class="botonesAgregar">
+                <button class="guardar" onclick="btnGuardar()">Guardar y empezar</button>
+                <button class="cancelar" onclick="btnCancelar()">Cancelar</button>
+            </section>
+
+            <section class="juego">
+
+                <div class="lienzo"><canvas width="1200" height="800" ></canvas></div>
+
+                <div class="botonesJuego">
+                    <button class="nuevo" onclick="btnNuevo()">Nuevo juego</button>
+                    <button class="desistir" onclick="btnDesistir()">Desistir</button>
+                </div>
+                
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

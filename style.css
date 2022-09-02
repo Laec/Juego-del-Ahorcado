@@ -1,0 +1,114 @@
+header{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+    width: 120px;
+    height: 48px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonesMenu{
+    position: absolute;
+    top: 45%;    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+    width: 317px;
+}
+
+.iniciar{
+    width: 250px;
+    height: 80px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-color: #0A3871;
+}
+
+.agregar{
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    border-color: #0A3871;
+}
+
+.botonesAgregar{
+    position: absolute;
+    top: 65%;    
+
+    flex-direction: row;
+    align-items: center;
+
+    gap: 16px;
+    width: 317px;
+
+    display: none;
+}
+
+.nuevaPalabra{
+    position: absolute;
+    top: 30%;
+
+    width: 500px;
+    height: 150px;
+
+    font-size: 24px;
+
+    border-radius: 24px;
+    border-color: #FFFFFF;
+
+    padding: 10px;
+
+    display: none;
+}
+
+.guardar, .nuevo{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-color: #0A3871;
+}
+
+.cancelar, .desistir{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    border-color: #0A3871;
+}
+
+.juego{
+    position: absolute;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+    width: 1200px;
+    height: 1000px;
+
+    display: none;
+}
+
+.botonesJuego{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
